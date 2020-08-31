@@ -1,3 +1,3 @@
 # first website
 
-it's for study !
+it's for my study
