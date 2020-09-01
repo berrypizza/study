@@ -1,32 +1,54 @@
 header {
   width: 100%;
 }
-.nav {
-  display: block;
-  list-style: none;
+nav {
+  width: 100%;
+  height: 90px;
+}
+.nav-con {
   display: flex;
-  justify-content: flex-start;
+  width: 30%;
+  height: 100%;
   align-items: center;
-  background: white;
-  height: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  justify-content: left;
+  margin-left: 3%;
 }
 a {
-  color: black;
-  text-transform: uppercase;
-  padding: 0 10px;
-  margin: 7px;
-  text-decoration: none;
+  margin: 2%;
 }
+.nav-img {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+.nava {
+  background: url(../img/planet4.png) center center no-repeat;
+  background-size: contain;
+}
+.navb {
+  background: url(../img/planet5.png) center center no-repeat;
+  background-size: contain;
+}
+.navc {
+  background: url(../img/planet3.png) center center no-repeat;
+  background-size: contain;
+}
+
 a:active,
 a:hover {
-  color: white;
-  font-size: 3rem;
-  background-color: black;
+  margin-top: 0.7%;
+  border-radius: 25px;
+
+  background: url(../img/moon.jpg) top right no-repeat;
+  background-size: cover;
+  z-index: 2;
+  width: 70px;
+  height: 70px;
 }
 /* header */
 .main-header {
   width: 100%;
+  height: 500px;
 }
 .img {
   position: relative;
@@ -35,6 +57,7 @@ a:hover {
   background: url(../img/moon.jpg) center;
   background-size: cover;
   background-attachment: fixed;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,28 +71,27 @@ a:hover {
 }
 .img-text {
   position: absolute;
-  font-size: 5rem;
+  font-size: 4.5rem;
   z-index: 2;
 
-  color: white;
+  color: rgb(228, 228, 228);
 
   text-transform: uppercase;
 
   font-family: Arial, Helvetica, sans-serif;
-  border: 2px solid white;
+  border: 2px solid rgb(228, 228, 228);
   border-radius: 20px;
-  padding: 0 50px;
+  padding: 0 7px;
 }
 .img-text:hover {
-  background: white;
-  color: black;
+  color: rgb(94, 29, 94);
+  background: rgb(228, 228, 228);
 }
 /* header img */
 .contents {
   width: 100%;
   height: 500px;
-  background: white;
-}
+  background: rgb(228, 228, 228);
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -79,4 +101,8 @@ a:hover {
 .2 {
 }
 .3 {
+}
+
+body {
+  background: rgb(94, 29, 94);
 }
