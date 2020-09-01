@@ -15,23 +15,34 @@ nav {
 }
 a {
   margin: 2%;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+  font-family: 'Lobster', cursive;
+  color: rgb(94, 29, 94);
 }
 .nav-img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   z-index: 1;
 }
 .nava {
   background: url(../img/planet4.png) center center no-repeat;
   background-size: contain;
+  box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
 }
 .navb {
   background: url(../img/planet5.png) center center no-repeat;
   background-size: contain;
+  box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
 }
 .navc {
   background: url(../img/planet3.png) center center no-repeat;
   background-size: contain;
+  box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
 }
 
 a:active,
@@ -39,11 +50,15 @@ a:hover {
   margin-top: 0.7%;
   border-radius: 25px;
 
+  color: rgb(94, 29, 94);
+
   background: url(../img/moon.jpg) top right no-repeat;
   background-size: cover;
   z-index: 2;
   width: 70px;
   height: 70px;
+  box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.3);
+
 }
 /* header */
 .main-header {
@@ -76,12 +91,11 @@ a:hover {
 
   color: rgb(228, 228, 228);
 
-  text-transform: uppercase;
 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lobster', cursive;
   border: 2px solid rgb(228, 228, 228);
   border-radius: 20px;
-  padding: 0 7px;
+  padding: 20px;
 }
 .img-text:hover {
   color: rgb(94, 29, 94);
