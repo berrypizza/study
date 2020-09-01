@@ -89,7 +89,7 @@ nav {
 }
 .img-cover {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(225, 0, 255, 0.1);
   height: 100%;
   width: 100%;
   z-index: 1;
