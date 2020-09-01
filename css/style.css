@@ -63,7 +63,7 @@ a:hover {
 
   color: rgb(94, 29, 94);
 
-  background: url(../img/moon.jpg) top right no-repeat;
+  background: rgb(94, 29, 94);
   background-size: cover;
   z-index: 2;
   width: 70px;
@@ -112,7 +112,7 @@ a:hover {
 }
 
 .line2 {
-  height: 10px;
+  height: 15px;
   width: 100%;
   background: rgb(94, 29, 94);
 }
