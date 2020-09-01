@@ -4,6 +4,15 @@ header {
 nav {
   width: 100%;
   height: 90px;
+  background: url(../img/planets2.png) bottom repeat-y;
+  background-size: cover;
+  position: relative;
+}
+.rgba {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
 }
 .nav-con {
   display: flex;
@@ -18,8 +27,10 @@ a {
   text-decoration: none;
   text-align: center;
   line-height: 60px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   color: rgb(94, 29, 94);
+  background: rgb(228, 228, 228);
+  border-radius: 50%;
 }
 .nav-img {
   width: 60px;
@@ -58,7 +69,6 @@ a:hover {
   width: 70px;
   height: 70px;
   box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.3);
-
 }
 /* header */
 .main-header {
@@ -91,8 +101,7 @@ a:hover {
 
   color: rgb(228, 228, 228);
 
-
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   border: 2px solid rgb(228, 228, 228);
   border-radius: 20px;
   padding: 20px;
@@ -101,22 +110,52 @@ a:hover {
   color: rgb(94, 29, 94);
   background: rgb(228, 228, 228);
 }
+
+.line2 {
+  height: 10px;
+  width: 100%;
+  background: rgb(94, 29, 94);
+}
+.line {
+  height: 10px;
+  width: 100%;
+  background: rgb(228, 228, 228);
+}
 /* header img */
 .contents {
   width: 100%;
-  height: 500px;
-  background: rgb(228, 228, 228);
-.container {
+  height: 100%;
+  background: white;
+  background: url(../img/planets2.png) center;
+  background-size: cover;
+}
+.containers {
   display: flex;
   flex-wrap: wrap;
+  padding: 3%;
+  justify-content: center;
+  font-size: 100%;
+
+  background: rgba(0, 0, 0, 0.3);
 }
-.1 {
-}
-.2 {
-}
-.3 {
+.c {
+  width: 300px;
+  height: 100%;
 }
 
+.nn {
+  padding: 3%;
+  margin: 0.5%;
+  background: rgb(228, 228, 228);
+  border-radius: 10%;
+  font-family: "Lobster", cursive;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 300%;
+  color: rgb(94, 29, 94);
+}
 body {
-  background: rgb(94, 29, 94);
 }
