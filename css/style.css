@@ -54,7 +54,6 @@ nav {
   box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
 }
-
 .nav-con a:active,
 .nav-con a:hover {
   margin-top: 0.7%;
@@ -106,7 +105,42 @@ nav {
   border: 2px solid rgb(228, 228, 228);
   border-radius: 20px;
   padding: 20px;
+  transition: ;
+
+  animation: text-focus-in 3s cubic-bezier(0.64, 0, 0.35, 1) both;
 }
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in2 {
+  0% {
+    -webkit-filter: blur(12px);
+    fillter: blur(12px);
+    opacity: 0;
+  }
+  40% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 .img-text:hover {
   color: rgb(94, 29, 94);
   background: rgb(228, 228, 228);
@@ -121,6 +155,7 @@ nav {
   margin-top: 130px;
   z-index: 10;
   font-size: 0.8rem;
+  animation: text-focus-in 4s cubic-bezier(0.64, 0, 0.35, 1) both;
 }
 #topname {
   position: absolute;
